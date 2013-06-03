@@ -2885,7 +2885,12 @@ input.hs-button.primary.large{
 }
 
 .profile-content p {
-	font-size: 10px;
+	font-size: 12px;
+}
+
+.profile-content li {
+	font-size: 12px;
+	
 }
 
 #name {
@@ -2899,9 +2904,20 @@ input.hs-button.primary.large{
 
 #contact {
 	margin-left: 158px;
+	margin-top: 30px;
 }
 
 .profile-name {
 	padding-top: 0;
 	
 }
+
+.go_back a {
+	font-size: 12px;
+}
+
+#aspirations {
+	padding-top: 10px;
+	margin-bottom: 30px;	
+}
+
