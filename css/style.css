@@ -413,12 +413,28 @@ img {
 .page-title {
     border-bottom: solid 1px #eee;
     padding: 30px 0;
-    margin-bottom: 40px;
     position: relative;
 }
 
 .profile_image {
-	float: left;	
+	float: left;
+	width: 40%;
+}
+
+.profile_image h2 {
+	text-align: left;
+	margin-bottom: 0px;
+}
+
+.profile_image h3 {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+.profile_image img {
+	top-margin: 20px;
+	margin-bottom: 20px;
+	width: 100%;
 }
 
 .profile-name {
@@ -2894,12 +2910,14 @@ input.hs-button.primary.large{
 }
 
 #name {
-	text-align: center;
+	text-align: left;
+	font-size: 24px;
 }
 
 #name h3 {
 	margin: 0px;
-	padding: 0px;
+	padding-bottom: 10px;
+	color: gray;
 }
 
 #contact {
@@ -2913,11 +2931,11 @@ input.hs-button.primary.large{
 }
 
 .go_back a {
+	margin-top: 20px;
 	font-size: 12px;
 }
 
 #aspirations {
-	padding-top: 10px;
 	margin-bottom: 30px;	
 }
 
